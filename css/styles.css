@@ -59,6 +59,7 @@ ul {list-style: none;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .nav_list .nav_link:hover,
@@ -87,6 +88,7 @@ ul {list-style: none;}
 .button_primary {
     color: var(--white-color);
     background-color: var(--accent-color);
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -194,6 +196,10 @@ color: var(--accent-color);
         color: var(--accent-color);
         background-color: var(--second-background-color);
         cursor: pointer;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
     }
 
     .button_secondary:hover,
@@ -217,7 +223,9 @@ color: var(--accent-color);
     letter-spacing: 0.02em;
 }
 
-
+.portfolio_link {
+    text-decoration: none;
+}
 
 
 
